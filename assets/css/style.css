@@ -1,6 +1,9 @@
-
 .nav-bg {
     background-color: rgb(31, 31, 31);
+}
+
+.break-bg {
+    background-color: rgb(49, 49, 49);
 }
 
 .nav-hover {
@@ -16,7 +19,8 @@
     height: 85vh;
 }
 
-.get-started-btn, .join-discord {
+.get-started-btn,
+.join-discord {
     background-color: #ffb81c;
     border: none;
     border-radius: 25px;
@@ -57,54 +61,30 @@
 
 @keyframes glow {
     0% {
-      background: #ffb81c;
+        background: #ffb81c;
     }
+
     25% {
-      background: #ffd06a;
+        background: #ffd06a;
     }
+
     100% {
-      background: #ffb81c;
+        background: #ffb81c;
     }
-  }
+}
 
 
 /* CSS */
 .discord-btn {
-  background-color: white;
-  border-radius: 100px;
-  box-shadow: rgba(255, 184, 28, .2) 0 -25px 18px -14px inset,rgba(255, 184, 28, .15) 0 1px 2px,rgba(255, 184, 28, .15) 0 2px 4px,rgba(255, 184, 28, .15) 0 4px 8px,rgba(255, 184, 28, .15) 0 8px 16px,rgba(255, 184, 28, .15) 0 16px 32px;
-  color: #8f6200;
-  font-weight: 600;
-  letter-spacing: 1px;
-  cursor: pointer;
-  display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 0;
-  font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.discord-btn:hover {
-  box-shadow: rgba(255, 184, 28,.35) 0 -25px 18px -14px inset,rgba(255, 184, 28,.25) 0 1px 2px,rgba(255, 184, 28,.25) 0 2px 4px,rgba(255, 184, 28,.25) 0 4px 8px,rgba(255, 184, 28,.25) 0 8px 16px,rgba(255, 184, 28,.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
-}
-
-.member-btn {
-    background-color: #ffb81c;
+    background-color: white;
     border-radius: 100px;
-    box-shadow: rgba(255, 184, 28, .2) 0 -25px 18px -14px inset,rgba(255, 184, 28, .15) 0 1px 2px,rgba(255, 184, 28, .15) 0 2px 4px,rgba(255, 184, 28, .15) 0 4px 8px,rgba(255, 184, 28, .15) 0 8px 16px,rgba(255, 184, 28, .15) 0 16px 32px;
-    color: white;
+    box-shadow: rgba(255, 184, 28, .2) 0 -25px 18px -14px inset, rgba(255, 184, 28, .15) 0 1px 2px, rgba(255, 184, 28, .15) 0 2px 4px, rgba(255, 184, 28, .15) 0 4px 8px, rgba(255, 184, 28, .15) 0 8px 16px, rgba(255, 184, 28, .15) 0 16px 32px;
+    color: #8f6200;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
     display: inline-block;
-    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
@@ -114,29 +94,70 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
-  
-  .member-btn:hover {
-    box-shadow: rgba(255, 184, 28,.35) 0 -25px 18px -14px inset,rgba(255, 184, 28,.25) 0 1px 2px,rgba(255, 184, 28,.25) 0 2px 4px,rgba(255, 184, 28,.25) 0 4px 8px,rgba(255, 184, 28,.25) 0 8px 16px,rgba(255, 184, 28,.25) 0 16px 32px;
-    transform: scale(1.05) rotate(-1deg);
-  }
-
-  .section1-img {
-    height: 500px;
-  }
-
-  .vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-  }
-
-  @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-30px); }
 }
+
+.discord-btn:hover {
+    box-shadow: rgba(255, 184, 28, .35) 0 -25px 18px -14px inset, rgba(255, 184, 28, .25) 0 1px 2px, rgba(255, 184, 28, .25) 0 2px 4px, rgba(255, 184, 28, .25) 0 4px 8px, rgba(255, 184, 28, .25) 0 8px 16px, rgba(255, 184, 28, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.member-btn {
+    background-color: #ffb81c;
+    border-radius: 100px;
+    box-shadow: rgba(255, 184, 28, .2) 0 -25px 18px -14px inset, rgba(255, 184, 28, .15) 0 1px 2px, rgba(255, 184, 28, .15) 0 2px 4px, rgba(255, 184, 28, .15) 0 4px 8px, rgba(255, 184, 28, .15) 0 8px 16px, rgba(255, 184, 28, .15) 0 16px 32px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.member-btn:hover {
+    box-shadow: rgba(255, 184, 28, .35) 0 -25px 18px -14px inset, rgba(255, 184, 28, .25) 0 1px 2px, rgba(255, 184, 28, .25) 0 2px 4px, rgba(255, 184, 28, .25) 0 4px 8px, rgba(255, 184, 28, .25) 0 8px 16px, rgba(255, 184, 28, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.section1-img {
+    height: 500px;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
 @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-30px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+.widget-glow {
+    box-shadow: 0px 5px 10px rgba(255, 184, 28, 0.6), 0px -5px 10px rgba(255, 184, 28, 0.6);
 }
 
 
