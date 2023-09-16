@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Bullionaires</title>
   </head>
   <body>
-    <nav class="fixed w-full nav-bg z-20 top-0 left-0 border-gray-200">
+    <nav class="w-full nav-bg z-20 top-0 left-0 border-gray-200">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -68,14 +75,14 @@
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-white rounded text-xl nav-hover md:p-0"
-                >About Us</a
+                >Learn To Trade</a
               >
             </li>
             <li>
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-white rounded text-xl md:p-0"
-                >Perks</a
+                >About Us</a
               >
             </li>
             <li>
@@ -103,7 +110,10 @@
         </div>
         <div class="flex flex-row justify-center sm:justify-start">
           <div class="px-9">
-            <button class="discord-btn" role="button">Join Our Discord</button>
+            <a href="https://discord.gg/9Nej7YPQHz">
+              <span class="discord-btn">Join Our Discord</span>
+            </a>
+            <!-- <button class="discord-btn" role="button">Join Our Discord</button> -->
           </div>
           <div class="px-9">
             <button class="member-btn" role="button">Become A Member</button>
@@ -130,9 +140,127 @@
     </section>
 
     <!-- SECOND SECTION -->
+    <section class="section-2">
+      <div class="learn-forex">FOREX 101</div>
+      <div class="section-2-sub">
+        <input type="radio" name="slider" class="d-none" id="s1" checked />
+        <input type="radio" name="slider" class="d-none" id="s2" />
+        <input type="radio" name="slider" class="d-none" id="s3" />
+        <input type="radio" name="slider" class="d-none" id="s4" />
+        <input type="radio" name="slider" class="d-none" id="s5" />
+
+        <div class="info-cards">
+          <label for="s1" id="slide1">
+            <div class="info-card">
+              <div class="learn-image">
+                <img src="./assets/images/What Is Forex.png" alt="" />
+              </div>
+              <div class="infos">
+                <span class="video-name">What is Forex?</span>
+                <span class="video-description"
+                  >Forex day trading is a strategy where traders buy and sell
+                  currency pairs within the same trading day, aiming to profit
+                  from short-term price fluctuations.</span
+                >
+              </div>
+              <a href="#" class="btn-contact watch-btn">Watch</a>
+            </div>
+          </label>
+
+          <label for="s2" id="slide2">
+            <div class="info-card">
+              <div class="learn-image">
+                <img src="./assets/images/Fundamentals.png" alt="" />
+              </div>
+              <div class="infos">
+                <span class="video-name">Fundamentals In 2 Minutes</span>
+                <span class="video-description"
+                  >Fundamentals refer to the economic and geopolitical factors,
+                  such as interest rates, employment data, and geopolitical
+                  events, that influence a currency's value.</span
+                >
+              </div>
+              <a href="#" class="btn-contact watch-btn">Watch</a>
+            </div>
+          </label>
+
+          <label for="s3" id="slide3">
+            <div class="info-card">
+              <div class="learn-image">
+                <img src="./assets/images/Psychology.png" alt="" />
+              </div>
+              <div class="infos">
+                <span class="video-name">Psychology In 2 Minutes</span>
+                <span class="video-description"
+                  >Psychology is about maintaining emotional discipline and a
+                  clear trading mindset is crucial for making rational decisions
+                  and avoiding impulsive actions.</span
+                >
+              </div>
+              <a href="#" class="btn-contact watch-btn">Watch</a>
+            </div>
+          </label>
+
+          <label for="s4" id="slide4">
+            <div class="info-card">
+              <div class="learn-image">
+                <img src="./assets/images/Technical.png" alt="" />
+              </div>
+              <div class="infos">
+                <span class="video-name">Technical In 2 Minutes</span>
+                <span class="video-description"
+                  >This involves studying price charts and indicators to
+                  identify potential market trends and trading opportunities
+                  based on historical price movements.</span
+                >
+              </div>
+              <a href="#" class="btn-contact watch-btn">Watch</a>
+            </div>
+          </label>
+
+          <label for="s5" id="slide5">
+            <div class="info-card">
+              <div class="learn-image">
+                <img src="./assets/images/Analysis.png" alt="" />
+              </div>
+              <div class="infos">
+                <span class="video-name">Analysis In 2 Minutes</span>
+                <span class="video-description"
+                  >Analysis is a combination of fundamental analysis and
+                  technical analysis helps traders make informed decisions about
+                  when to enter or exit trades.</span
+                >
+              </div>
+              <a href="#" class="btn-contact watch-btn">Watch</a>
+            </div>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL LINE BREAK -->
+    <div class="social-box">
+      <ul class="social-ul">
+        <li style="--clr: #ffffff" class="social-li">
+          <a href="https://www.tiktok.com/@bullionaires.co" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </li>
+        <li style="--clr: #ff0000" class="social-li">
+          <a href="#"><i class="fa-brands fa-youtube" target="_blank"></i></a>
+        </li>
+        <li style="--clr: #5865f2" class="social-li">
+          <a href="https://discord.gg/9Nej7YPQHz"><i class="fa-brands fa-discord" target="_blank"></i></a>
+        </li>
+        <li style="--clr: #c32aa3" class="social-li">
+          <a href="https://www.instagram.com/bullionaires.co/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+        </li>
+        <li style="--clr: #25d366" class="social-li">
+          <a href="#"><i class="fa-brands fa-telegram" target="_blank"></i></a>
+        </li>
+      </ul>
+    </div>
 
     <!-- Footer -->
-    <footer class="nav-bg shadow">
+    <footer class="foot-bg shadow">
       <div class="w-full max-w-screen-xl mx-auto md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a
