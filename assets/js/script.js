@@ -59,7 +59,7 @@ showSlides(slideIndex);
 // Automatically transition to the next slide every 2 seconds (2000 milliseconds)
 var slideInterval = setInterval(function() {
   plusSlides(1);
-}, 3000);
+}, 4000);
 
 function plusSlides(n) {
   showSlides((slideIndex += n));
@@ -118,5 +118,9 @@ slideshowContainer.addEventListener("mouseenter", function () {
 slideshowContainer.addEventListener("mouseleave", function () {
   slideInterval = setInterval(function () {
     plusSlides(1);
-  }, 3000);
+  }, 2000);
 });
+
+
+// FOREX PIP CALCULATOR
+RemoteCalc({"Url":"https://www.cashbackforex.com", "TopPaneStyle":"YmFja2dyb3VuZDogd2hpdGU7IGNvbG9yOiBibGFjazsgYm9yZGVyOiBzb2xpZCAxcHggI2FhYTsgYm9yZGVyLWJvdHRvbTogbm9uZTsgYm9yZGVyLXJhZGl1czogMjBweCAyMHB4IDAgMCA=","BottomPaneStyle":"YmFja2dyb3VuZDogd2hpdGU7IGJvcmRlcjogc29saWQgMXB4ICNhYWE7IGNvbG9yOiBibGFjazsgYm9yZGVyLXJhZGl1czogMCAwIDIwcHggMjBweA==","ButtonStyle":"YmFja2dyb3VuZDogYmxhY2s7IGNvbG9yOiB3aGl0ZTsgYm9yZGVyLXJhZGl1czogMjBweDs=","TitleStyle":"dGV4dC1hbGlnbjogbGVmdDsgZm9udC1zaXplOiA0MHB4OyBmb250LXdlaWdodDogNTAwOw==","TextboxStyle":"YmFja2dyb3VuZC1jb2xvcjogd2hpdGU7IGNvbG9yOiBibGFjazsgYm9yZGVyOiBzb2xpZCAxcHggI2FhYWFhYQ==","ContainerWidth":"665","DefaultInstrument":"EUR-USD","HighlightColor":"#ffff00","IsDisplayTitle":false,"IsShowChartLinks":true,"IsShowEmbedButton":true,"CompactType":"large","Calculator":"position-size-calculator","ContainerId":"position-size-calculator-343538"});
