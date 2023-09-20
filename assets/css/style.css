@@ -635,7 +635,7 @@ body {
 
 .mySlides {
   display: none;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -674,7 +674,7 @@ body {
 
 .dot-container {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background: rgb(70, 70, 70);
 }
 
